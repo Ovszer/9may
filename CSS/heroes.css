@@ -1,0 +1,58 @@
+html {
+    scrollbar-color: black white;
+    scrollbar-width: thin;
+}
+::-webkit-scrollbar { display: none;}
+
+.header_wrapper{
+    width: 1240px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+}
+.header_title{
+    width: 1240px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+}
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+.content_wrapper{
+    padding-top: 80px;
+    width: 1240px;
+
+    margin: 0 auto;
+}
+.heroes_wrapper{
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.modal {
+    z-index: 1050;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+
+}

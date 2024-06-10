@@ -1,0 +1,92 @@
+html {
+    scrollbar-color: rgba(186, 158, 0, 0.791) white;
+    scrollbar-width: thin;
+}
+::-webkit-scrollbar { display: none;}
+
+header {
+    background-color: rgb(152, 0, 0);
+    color: white;
+    text-align: center;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+
+}
+nav {
+    background-color: rgba(108, 92, 3, 0.791);
+    padding: 0.5em;
+    text-align: center;
+    height: 40px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline dotted;
+    font-weight: 700;
+}
+.content {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hero {
+    background: url('/img/13297722_5193552.jpg') center center;
+    background-size: cover;
+    height: 810px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 8px;
+}
+.divider{
+    height: 40px;
+    background-color:  rgba(108, 92, 3, 0.791);
+}
+.content_wrapper{
+    text-align: center;
+    height: 530px;
+    
+}
+.divider2{
+    height: 5px;
+    background-color:  rgba(108, 92, 3, 0.791);
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 1300px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.content_paragraph{
+    font-size: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.p_link{
+    color: black;
+}
+.p_link:hover{
+    font-weight: 550;
+}
+footer {
+    background-color: rgb(152, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+}
